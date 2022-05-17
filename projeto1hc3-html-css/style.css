@@ -1,0 +1,124 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    color: #000;
+}
+
+ul {
+    list-style: none;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+a {
+    text-decoration: none;
+    font-weight: 400;
+}
+
+body {
+    background-image: url(./background-ac.jpg);
+    background-repeat: none;
+    background-position: center center fixed;
+    background-size: cover;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 30px;
+}
+
+header ul {
+    display: flex;
+}
+
+header ul li {
+    padding: 5px;
+}
+
+header ul li a {
+    transition: 400ms;
+}
+
+header ul li a:hover {
+    color: blueviolet;]
+    text-decoration: underline;
+}
+
+.container {
+    text-align: center;
+}
+
+.container .name h1 {
+    font-size: 80px;
+    font-family: 'Birthstone', cursive;
+}
+
+.container .name h5 {
+    font-size: 35px;
+}
+
+#about p {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+form {
+    width: 40%;
+    margin: 0 auto;
+    padding: 25px;
+    margin-top: 30px;
+}
+
+form input {
+    width: 50%;
+    padding: 10px 10px;
+    border: none;
+    border-radius: 5px 0 0 5px;
+}
+
+form button {
+    width: 15%;
+    padding: 10px 10px;
+    background: linear-gradient(to right, #fff 50%, #000 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+    color: #fff;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+    transition: all 400ms ease-out;
+    border-radius: 0 5px 5px 0;
+    margin-top: 20px;
+    margin-left: -4px;
+}
+
+form button:hover {
+    background-position: left bottom;
+    color: fff;
+    border: none;
+}
+
+@media only screen and (max-wight: 768px) {
+    .form {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-wight: 480px) {
+    .container .name h1 {
+        font-size: 40px;
+    }
+    
+    .container .name h5 {
+        font-size: 25px;
+    }
+    #about p {
+        max-width: 80%;
+        text-align: justify;
+    }
+}
