@@ -18,7 +18,7 @@ a {
 }
 
 body {
-    background-image: url(.img/background-ac.jpg);
+    background-image: url(img/background-ac.jpg);
     background-repeat: none;
     background-position: center center fixed;
     background-size: cover;
@@ -45,7 +45,7 @@ header ul li a {
 }
 
 header ul li a:hover {
-    color: blueviolet;]
+    color: blueviolet;
     text-decoration: underline;
 }
 
